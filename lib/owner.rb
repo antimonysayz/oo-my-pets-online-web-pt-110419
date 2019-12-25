@@ -63,7 +63,7 @@ class Owner
   end
   
   def list_pets
-    return "I have #{@@pets[:dogs].length} dog(s), and #{@@pets[:cats].length} cat(s)."
+    return "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
   end
   
   def sell_pets
